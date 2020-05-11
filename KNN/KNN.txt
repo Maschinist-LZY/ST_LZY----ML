@@ -1,0 +1,6 @@
+dbKnn.py 是调包实现
+Knn_New.py 是手写实现
+运行环境：
+Python3.6
+numpy1.16.1
+scikit-learn 0.21.2
