@@ -1,0 +1,21 @@
+@relation weather
+@attribute Outlook {Sunny, Overcast, Rain}
+@attribute Temperature {Hot, Mild, Cool}
+@attribute Humidity {High, Normal, Low}
+@attribute Windy {FALSE, TRUE}
+@attribute Play {N, P}
+@data
+Sunny,Hot,High,FALSE,N
+Sunny,Hot,High,TRUE,N
+Overcast,Hot,High,FALSE,P
+Rain,Mild,High,FALSE,P
+Rain,Cool,Normal,FALSE,P
+Rain,Cool,Normal,TRUE,N
+Overcast,Cool,Normal,TRUE,P
+Sunny,Mild,High,FALSE,N
+Sunny,Cool,Normal,FALSE,P
+Rain,Mild,Normal,FALSE,P
+Sunny,Mild,Normal,TRUE,P
+Overcast,Mild,High,TRUE,P
+Overcast,Hot,Normal,FALSE,P
+Rain,Mild,High,TRUE,N
